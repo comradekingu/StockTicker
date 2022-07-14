@@ -14,8 +14,9 @@
       android:id="@+id/fieldname"
       android:textColor="@color/text_2"
       android:layout_centerVertical="true"
-      android:layout_alignParentLeft="true"
-      android:gravity="left"
+      android:layout_alignParentStart="true"
+      android:gravity="start"
+      style="@style/FieldNameText"
       />
 
   <com.robinhood.ticker.TickerView
@@ -28,6 +29,7 @@
       tools:text="GOOG"
       android:layout_centerVertical="true"
       android:ellipsize="none"
-      android:gravity="right"
+      android:gravity="end"
+      style="@style/FieldValueText"
       />
 </merge>

@@ -32,4 +32,5 @@
   <color name="tab_background">@color/transparent</color>
   <color name="change_positive">#66BB6A</color>
   <color name="change_negative">#EF5350</color>
+  <color name="ic_launcher_background">#2A2A2A</color>
 </resources>

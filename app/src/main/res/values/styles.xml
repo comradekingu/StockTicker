@@ -53,12 +53,43 @@
     <item name="android:textSize">@dimen/thin_title_text</item>
   </style>
 
+  <style name="EmptyStateText" parent="BoldTextView">
+    <item name="android:textSize">@dimen/large_text</item>
+    <item name="android:textColor">@color/color_accent</item>
+  </style>
+  
+  <style name="StockSymbolText" parent="BoldTextView">
+    <item name="android:textSize">@dimen/large_text</item>
+    <item name="android:textColor">@color/text_1</item>
+  </style>
+
+  <style name="StockNameText" parent="TextViewStyle">
+    <item name="android:textSize">@dimen/portfolio_position_vh_text_size</item>
+    <item name="android:textColor">@color/text_1</item>
+  </style>
+
+  <style name="TickerTotalValueText">
+    <item name="android:textSize">@dimen/medium_text</item>
+    <item name="android:textColor">@color/text_1</item>
+  </style>
+
+  <style name="TickerChangeText">
+    <item name="android:textSize">@dimen/large_text</item>
+    <item name="android:textColor">@color/text_1</item>
+  </style>
+
+  <style name="FieldNameText" parent="TextViewStyle">
+    <item name="android:textColor">@color/text_2</item>
+  </style>
+
+  <style name="FieldValueText" parent="TextViewStyle">
+    <item name="android:textColor">@color/text_1</item>
+  </style>
+
   <style name="BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
     <item name="itemActiveIndicatorStyle">@style/BottomNavigationView.ActiveIndicator</item>
     <item name="android:height">?attr/actionBarSize</item>
     <item name="android:minHeight">?attr/actionBarSize</item>
-    <item name="itemIconTint">@drawable/bottom_nav_icon_tint</item>
-    <item name="itemTextColor">@drawable/bottom_nav_icon_tint</item>
     <item name="itemPaddingTop">8dp</item>
     <item name="itemPaddingBottom">8dp</item>
   </style>

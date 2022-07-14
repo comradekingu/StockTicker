@@ -1,8 +1,6 @@
 package com.github.premnirmal.ticker.base
 
 import android.graphics.Color
-import android.os.Build.VERSION
-import android.os.Build.VERSION_CODES
 import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.viewbinding.ViewBinding
@@ -62,11 +60,7 @@ abstract class BaseGraphActivity<T : ViewBinding> : BaseActivity<T>() {
     val series = LineDataSet(dataPoints, ticker)
     series.setDrawHorizontalHighlightIndicator(false)
     series.setDrawValues(false)
-    val colorAccent = if (VERSION.SDK_INT >= VERSION_CODES.S) {
-      ContextCompat.getColor(this, android.R.color.system_accent1_400)
-    } else {
-      ContextCompat.getColor(this, R.color.color_accent)
-    }
+    val colorAccent = ContextCompat.getColor(this, R.color.color_accent)
     series.setDrawFilled(true)
     series.color = colorAccent
     series.fillColor = colorAccent
