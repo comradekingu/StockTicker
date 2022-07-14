@@ -1,11 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-  <style name="StocksWidget.App.Theme" parent="AppTheme">
+  <style name="AppThemeV23" parent="BaseAppTheme">
     <!-- v21 specific -->
     <item name="android:statusBarColor">?attr/colorSurface</item>
     <item name="android:navigationBarColor">?attr/colorSurface</item>
     <!-- v23 specific -->
     <item name="android:windowLightStatusBar">true</item>
   </style>
+
+  <style name="StocksWidget.App.Theme" parent="AppThemeV23"/>
 
 </resources>
