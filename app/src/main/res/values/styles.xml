@@ -116,9 +116,7 @@
     <item name="colorControlActivated">@color/color_accent</item>
   </style>
 
-  <style name="TextAppearance.Dialog" parent="@style/TextAppearance.Material3.BodySmall">
-    <item name="android:textColor">@color/text_4</item>
-  </style>
+  <style name="TextAppearance.Dialog" parent="@style/TextAppearance.Material3.BodySmall"/>
 
    <!-- Custom Preference Theme -->
    <style name="AppPreferenceTheme" parent="@style/PreferenceThemeOverlay">
@@ -135,10 +133,12 @@
   </style>
 
   <style name="Widget.Quote.Details.Title" parent="Widget.MaterialComponents.TextView">
+    <item name="android:textColor">@color/text_3</item>
   </style>
 
   <style name="Widget.Quote.Details.Data" parent="Widget.MaterialComponents.TextView">
     <item name="android:textSize">@dimen/large_text</item>
+    <item name="android:textColor">@color/text_1</item>
   </style>
 
   <style name="Widget.Chip.Chart" parent="Widget.MaterialComponents.Chip.Choice">

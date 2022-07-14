@@ -66,6 +66,7 @@
         android:textSize="@dimen/xlarge_text"
         android:gravity="center"
         app:layout_scrollFlags="scroll"
+        android:textColor="@color/text_3"
         tools:text="Apple Inc."
         />
 
@@ -117,7 +118,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/quote_details_margin"
         android:textAppearance="@style/TickerTextAppearanceBold"
-        android:textColor="?attr/colorOnSurface"
+        android:textColor="@color/text_2"
         android:textSize="@dimen/xlarge_text"
         android:gravity="center"
         tools:text="$132.99"/>
@@ -298,12 +299,14 @@
                   android:gravity="center"
                   android:textSize="@dimen/xlarge_text"
                   tools:text="3"
+                  android:textColor="@color/text_1"
                   style="@style/BoldTextView"
                   />
               <TextView
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:text="@string/shares"
+                  android:textColor="@color/text_3"
                   />
 
             </LinearLayout>
@@ -323,8 +326,8 @@
                   android:gravity="center"
                   android:textSize="@dimen/xlarge_text"
                   tools:text="$2,400.00"
+                  android:textColor="@color/text_1"
                   android:textAppearance="@style/TickerTextAppearanceBold"
-                  android:textColor="?attr/colorOnSurface"
                   />
               <TextView
                   android:layout_width="wrap_content"
