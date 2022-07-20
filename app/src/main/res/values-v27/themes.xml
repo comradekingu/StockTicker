@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <style name="AppThemeV27" parent="BaseAppTheme">
-    <!-- v21 specific -->
-    <item name="android:statusBarColor">?attr/colorSurface</item>
-    <item name="android:navigationBarColor">?attr/colorSurface</item>
-    <!-- v23 specific -->
-    <item name="android:windowLightStatusBar">true</item>
-    <!-- v26 specific   -->
-    <item name="android:fontFamily">@font/ubuntu_regular</item>
-    <item name="fontFamily">@font/ubuntu_regular</item>
-    <item name="android:font">@font/ubuntu_regular</item>
-    <item name="font">@font/ubuntu_regular</item>
-    <!-- v27 specific -->
+  <style name="AppThemeV27" parent="AppThemeV26">
     <item name="android:navigationBarDividerColor">@color/transparent</item>
     <item name="android:windowLightNavigationBar">true</item>
   </style>

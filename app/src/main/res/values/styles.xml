@@ -8,7 +8,7 @@
   </style>
 
   <style name="ThemeOverlay.App.Snackbar" parent="">
-    <item name="colorOnSurface">@color/snackbar_bg</item>
+    <item name="colorOnSurface">?attr/colorPrimary</item>
     <item name="android:textColor">@color/snackbar_text</item>
   </style>
 
@@ -19,71 +19,6 @@
   <style name="ActionBarStyle" parent="Widget.Material3.ActionBar.Solid">
     <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
     <item name="android:background">?attr/colorPrimaryDark</item>
-  </style>
-
-  <style name="TextViewStyle" parent="Widget.MaterialComponents.TextView">
-    <item name="android:textSize">@dimen/text_size</item>
-    <item name="android:fontFamily">@font/ubuntu_regular</item>
-    <item name="fontFamily">@font/ubuntu_regular</item>
-  </style>
-
-  <style name="BoldTextView" parent="TextViewStyle">
-    <item name="android:fontFamily">@font/ubuntu_bold</item>
-    <item name="fontFamily">@font/ubuntu_bold</item>
-  </style>
-
-  <style name="MediumTextView" parent="TextViewStyle">
-    <item name="android:fontFamily">@font/ubuntu_regular</item>
-    <item name="fontFamily">@font/ubuntu_regular</item>
-  </style>
-
-  <style name="LightTextView" parent="TextViewStyle">
-    <item name="android:fontFamily">@font/ubuntu_light</item>
-    <item name="fontFamily">@font/ubuntu_light</item>
-  </style>
-
-  <style name="ItalicTextView" parent="TextViewStyle">
-    <item name="android:fontFamily">@font/ubuntu_italic</item>
-    <item name="fontFamily">@font/ubuntu_italic</item>
-  </style>
-
-  <style name="ThinTitleTextView" parent="TextViewStyle">
-    <item name="android:fontFamily">@font/raleway_light</item>
-    <item name="fontFamily">@font/raleway_light</item>
-    <item name="android:textSize">@dimen/thin_title_text</item>
-  </style>
-
-  <style name="EmptyStateText" parent="BoldTextView">
-    <item name="android:textSize">@dimen/large_text</item>
-    <item name="android:textColor">@color/color_accent</item>
-  </style>
-  
-  <style name="StockSymbolText" parent="BoldTextView">
-    <item name="android:textSize">@dimen/large_text</item>
-    <item name="android:textColor">@color/text_1</item>
-  </style>
-
-  <style name="StockNameText" parent="TextViewStyle">
-    <item name="android:textSize">@dimen/portfolio_position_vh_text_size</item>
-    <item name="android:textColor">@color/text_1</item>
-  </style>
-
-  <style name="TickerTotalValueText">
-    <item name="android:textSize">@dimen/medium_text</item>
-    <item name="android:textColor">@color/text_1</item>
-  </style>
-
-  <style name="TickerChangeText">
-    <item name="android:textSize">@dimen/large_text</item>
-    <item name="android:textColor">@color/text_1</item>
-  </style>
-
-  <style name="FieldNameText" parent="TextViewStyle">
-    <item name="android:textColor">@color/text_2</item>
-  </style>
-
-  <style name="FieldValueText" parent="TextViewStyle">
-    <item name="android:textColor">@color/text_1</item>
   </style>
 
   <style name="BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
@@ -104,16 +39,10 @@
     <item name="android:textAllCaps">false</item>
   </style>
 
-  <style name="FooterTextView" parent="TextViewStyle">
-    <item name="android:fontFamily">@font/alegreya_black_italic</item>
-    <item name="fontFamily">@font/alegreya_black_italic</item>
-    <item name="android:textSize">22sp</item>
-  </style>
-
-  <style name="ButtonStyle" parent="Widget.Material3.Button">
-    <item name="android:textSize">@dimen/button_text</item>
-    <item name="android:fontFamily">@font/ubuntu_bold</item>
-    <item name="fontFamily">@font/ubuntu_bold</item>
+  <style name="TextViewStyle" parent="Widget.MaterialComponents.TextView">
+    <item name="android:textSize">@dimen/text_size</item>
+    <item name="android:fontFamily">@font/ubuntu_regular</item>
+    <item name="fontFamily">@font/ubuntu_regular</item>
   </style>
 
   <style name="EditTextStyle" parent="android:Widget.EditText">
@@ -122,29 +51,25 @@
     <item name="fontFamily">@font/ubuntu_regular</item>
   </style>
 
+  <style name="ButtonStyle" parent="Widget.Material3.Button">
+    <item name="android:textSize">@dimen/button_text</item>
+    <item name="android:fontFamily">@font/ubuntu_bold</item>
+    <item name="fontFamily">@font/ubuntu_bold</item>
+  </style>
+
   <style name="ActionBarTitleText" parent="@style/TextAppearance.Material3.ActionBar.Title">
     <item name="android:fontFamily">@font/ubuntu_bold</item>
     <item name="fontFamily">@font/ubuntu_bold</item>
   </style>
 
   <style name="AlertDialog" parent="@style/Theme.Material3.DayNight.Dialog.Alert">
-    <item name="android:textColor">@color/color_accent</item>
-    <item name="android:colorPrimary">@color/color_accent</item>
-    <item name="android:colorBackground">@color/default_bg</item>
-    <item name="android:colorBackgroundCacheHint">@color/default_bg</item>
-    <item name="android:windowBackground">@color/default_bg</item>
     <item name="android:textAppearanceSmall">@style/TextAppearance.Material3.BodySmall</item>
     <item name="android:button">@style/Widget.Material3.Button</item>
     <item name="android:buttonBarButtonStyle">@style/Widget.Material3.Button.TextButton
     </item>
     <item name="android:titleTextAppearance">@style/TextAppearance.Material3.HeadlineMedium</item>
     <item name="titleTextAppearance">@style/TextAppearance.Material3.HeadlineMedium</item>
-    <item name="titleTextColor">@color/color_accent</item>
-    <item name="colorPrimary">@color/color_accent</item>
-    <item name="colorPrimaryDark">@color/color_accent</item>
-    <item name="colorControlNormal">@color/color_accent</item>
-    <item name="colorControlHighlight">@color/color_accent</item>
-    <item name="colorControlActivated">@color/color_accent</item>
+    <item name="titleTextColor">?attr/colorAccent</item>
   </style>
 
   <style name="TextAppearance.Dialog" parent="@style/TextAppearance.Material3.BodySmall"/>
@@ -181,10 +106,6 @@
   <style name="ShapeAppearance.Chip" parent="ShapeAppearance.MaterialComponents.SmallComponent">
     <item name="cornerFamily">rounded</item>
     <item name="cornerSize">8dp</item>
-  </style>
-
-  <style name="TickerTextAppearanceBold">
-    <item name="android:textStyle">bold</item>
   </style>
 
 </resources>

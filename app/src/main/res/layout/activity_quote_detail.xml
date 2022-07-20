@@ -59,7 +59,7 @@
           android:orientation="horizontal"/>
 
       <TextView
-          style="@style/MediumTextView"
+          android:textAppearance="@style/TextAppearance.StocksWidget.TitleMedium"
           android:id="@+id/tickerName"
           app:layout_constraintStart_toStartOf="parent"
           app:layout_constraintEnd_toEndOf="parent"
@@ -69,8 +69,7 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="@dimen/activity_vertical_margin"
           android:textColor="@color/text_2"
-          android:textSize="@dimen/xlarge_text"
-          android:gravity="center"
+                    android:gravity="center"
           app:layout_scrollFlags="scroll"
           tools:text="Apple Inc."
           />
@@ -124,8 +123,7 @@
           android:layout_marginTop="@dimen/quote_details_margin"
           android:textAppearance="@style/TickerTextAppearanceBold"
           android:textColor="@color/text_2"
-          android:textSize="@dimen/xlarge_text"
-          android:gravity="center"
+                    android:gravity="center"
           tools:text="$132.99"/>
 
         <com.robinhood.ticker.TickerView
@@ -262,8 +260,7 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/positions"
-            android:textSize="@dimen/thin_title_text"
-            style="@style/ThinTitleTextView"
+            android:textAppearance="@style/TextAppearance.StocksWidget.LabelMedium"
             />
 
         <ImageView
@@ -304,10 +301,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="2dp"
                 android:gravity="center"
-                android:textSize="@dimen/xlarge_text"
-                tools:text="3"
+                                tools:text="3"
                 android:textColor="@color/text_1"
-                style="@style/BoldTextView"
+                android:textAppearance="@style/TextAppearance.StocksWidget.TitleMedium"
                 />
             <TextView
                 android:layout_width="wrap_content"
@@ -331,8 +327,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="2dp"
                 android:gravity="center"
-                android:textSize="@dimen/xlarge_text"
-                tools:text="$2,400.00"
+                                tools:text="$2,400.00"
                 android:textColor="@color/text_1"
                 android:textAppearance="@style/TickerTextAppearanceBold"
                 />
@@ -403,8 +398,7 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/alerts"
-            android:textSize="@dimen/thin_title_text"
-            style="@style/ThinTitleTextView"
+            android:textAppearance="@style/TextAppearance.StocksWidget.LabelMedium"
             />
 
         <ImageView
@@ -470,8 +464,7 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/notes"
-            android:textSize="@dimen/thin_title_text"
-            style="@style/ThinTitleTextView"
+            android:textAppearance="@style/TextAppearance.StocksWidget.LabelMedium"
             />
 
         <ImageView
@@ -513,8 +506,7 @@
           android:layout_marginStart="16dp"
           android:gravity="center_vertical"
           android:text="@string/recent_news"
-          android:textSize="@dimen/thin_title_text"
-          style="@style/ThinTitleTextView"
+          android:textAppearance="@style/TextAppearance.StocksWidget.LabelMedium"
           />
 
       <ViewFlipper
@@ -536,9 +528,8 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/error_fetching_news"
-            android:textColor="@color/color_accent"
-            android:textSize="@dimen/large_text"
-            style="@style/MediumTextView"
+            android:textColor="?attr/colorAccent"
+            android:textAppearance="@style/TextAppearance.StocksWidget.TitleMedium"
             />
 
         <TextView
@@ -547,9 +538,8 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/no_data"
-            android:textColor="@color/color_accent"
-            android:textSize="@dimen/large_text"
-            style="@style/MediumTextView"
+            android:textColor="?attr/colorAccent"
+            android:textAppearance="@style/TextAppearance.StocksWidget.TitleMedium"
             />
 
         <androidx.recyclerview.widget.RecyclerView

@@ -3,6 +3,7 @@
   <color name="divider">#aaaa</color>
   <color name="card_bg">#1d1d1d</color>
   <color name="card_shadow">#95000000</color>
+  <color name="snackbar_text">@color/text_1</color>
   <color name="icon_tint">#ffffff</color>
   <color name="tab_text">@color/text_3</color>
   <color name="tab_text_selected">@color/text_1</color>

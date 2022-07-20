@@ -59,9 +59,9 @@
           android:layout_gravity="center"
           android:gravity="center"
           android:text="@string/error_fetching_news"
-          android:textColor="@color/color_accent"
+          android:textColor="?attr/colorAccent"
           android:textSize="@dimen/large_text"
-          style="@style/MediumTextView"
+          android:textAppearance="@style/TextAppearance.StocksWidget.Body1"
           />
 
       <TextView
@@ -70,9 +70,9 @@
           android:layout_gravity="center"
           android:gravity="center"
           android:text="@string/no_data"
-          android:textColor="@color/color_accent"
+          android:textColor="?attr/colorAccent"
           android:textSize="@dimen/large_text"
-          style="@style/MediumTextView"
+          android:textAppearance="@style/TextAppearance.StocksWidget.Body1"
           />
 
       <androidx.recyclerview.widget.RecyclerView
