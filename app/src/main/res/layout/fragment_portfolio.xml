@@ -15,7 +15,7 @@
       android:layout_gravity="center_horizontal"
       android:gravity="center"
       android:text="@string/no_symbols"
-      style="@style/EmptyStateText"
+      android:textAppearance="@style/TextAppearance.StocksWidget.FetchError"
       />
 
   <androidx.recyclerview.widget.RecyclerView

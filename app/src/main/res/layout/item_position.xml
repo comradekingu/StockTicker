@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="GOOG"
-        style="@style/StockSymbolText"
+        android:textAppearance="@style/TextAppearance.StocksWidget.TitleMedium"
         />
 
     <com.robinhood.ticker.TickerView
@@ -37,7 +37,6 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical|end"
         android:maxLines="1"
-        style="@style/TickerTotalValueText"
         tools:text="555.02"
         app:layout_constraintStart_toEndOf="@id/ticker"
         app:layout_constraintEnd_toStartOf="@id/more_menu"
@@ -66,7 +65,7 @@
       android:layout_marginEnd="4dp"
       android:ellipsize="end"
       android:maxLines="1"
-      style="@style/StockNameText"
+      android:textAppearance="@style/TextAppearance.StocksWidget.LabelMedium"
       tools:text="Google Inc"
       app:layout_constraintTop_toBottomOf="@id/more_menu"
       app:layout_constraintStart_toStartOf="parent"

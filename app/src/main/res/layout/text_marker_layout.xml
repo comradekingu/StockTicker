@@ -13,8 +13,7 @@
       android:gravity="center"
       android:padding="5dp"
       android:text=""
-      android:textSize="@dimen/small_text"
-      style="@style/BoldTextView"
+      android:textAppearance="@style/TextAppearance.StocksWidget.LabelMedium"
       />
 
 </RelativeLayout>
