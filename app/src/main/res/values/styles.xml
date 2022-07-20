@@ -25,6 +25,8 @@
     <item name="itemActiveIndicatorStyle">@style/BottomNavigationView.ActiveIndicator</item>
     <item name="android:height">?attr/actionBarSize</item>
     <item name="android:minHeight">?attr/actionBarSize</item>
+    <item name="itemIconTint">?attr/colorSecondaryVariant</item>
+    <item name="itemTextColor">?attr/colorSecondaryVariant</item>
     <item name="itemPaddingTop">8dp</item>
     <item name="itemPaddingBottom">8dp</item>
   </style>
